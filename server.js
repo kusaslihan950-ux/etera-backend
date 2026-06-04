@@ -5,6 +5,7 @@ const cors = require("cors");
 
 const app = express();
 
+let chatHistory = [];
 const userMemories = {};
 
 app.use(cors());
